@@ -1,0 +1,66 @@
+<web-app>
+    <!-- Add Employee -->
+    <servlet>
+        <servlet-name>AddEmployeeServlet</servlet-name>
+        <servlet-class>com.servlet.AddEmployeeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddEmployeeServlet</servlet-name>
+        <url-pattern>/addEmployee</url-pattern>
+    </servlet-mapping>
+
+    <!-- Display Employee -->
+    <servlet>
+        <servlet-name>DisplayEmployeeServlet</servlet-name>
+        <servlet-class>com.servlet.DisplayEmployeeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DisplayEmployeeServlet</servlet-name>
+        <url-pattern>/displayEmployee</url-pattern>
+    </servlet-mapping>
+
+    <!-- ✅ Update Employee -->
+    <servlet>
+        <servlet-name>UpdateEmployeeServlet</servlet-name>
+        <servlet-class>com.servlet.UpdateEmployeeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateEmployeeServlet</servlet-name>
+        <url-pattern>/updateEmployee</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    <servlet-name>DeleteEmployeeServlet</servlet-name>
+    <servlet-class>com.servlet.DeleteEmployeeServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>DeleteEmployeeServlet</servlet-name>
+    <url-pattern>/deleteEmployee</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ReportServlet</servlet-name>
+    <servlet-class>com.servlet.ReportServlet</servlet-class>
+</servlet>
+
+<servlet>
+    <servlet-name>ReportFilterServlet</servlet-name>
+    <servlet-class>com.servlet.ReportFilterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ReportFilterServlet</servlet-name>
+    <url-pattern>/reportFilter</url-pattern>
+</servlet-mapping>
+
+
+<servlet-mapping>
+    <servlet-name>ReportServlet</servlet-name>
+    <url-pattern>/report</url-pattern>
+</servlet-mapping>
+    
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
