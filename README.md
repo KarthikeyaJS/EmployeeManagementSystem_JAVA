@@ -199,23 +199,20 @@ http://localhost:8080/EmployeeSalaryManagementApp/
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](screenshots/index.png)
-*Main dashboard showing payroll overview and quick access to all modules*
+![Home Page](screenshots/home.png)
+*Main dashboard showing all features of the system.*
 
 ### Employee Management
-![Employee Registration](screenshots/add.png)
+![Employee Registration](screenshots/addpage.png)
 *Employee registration form with comprehensive details*
 
-![Employee List](screenshots/list.png)
-*Complete employee directory with search and filter options*
+![Employee Update](screenshots/updatepage.png)
+*Employee updation form for easily modifying employee details.*
 
 ### Salary Structure
-![Update_Salary Structure](screenshots/update.png)
-*Salary component configuration interface*
+![Employee Delete](screenshots/deletepage.png)
+*Employee deletion form to delete employee form database.*
 
-### Reports Dashboard
-![Reports Dashboard](screenshots/report.png)
-*Comprehensive salary and payroll analytics*
 
 
 ## 🔧 Configuration
