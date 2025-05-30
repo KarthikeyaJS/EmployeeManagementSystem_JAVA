@@ -48,51 +48,26 @@ EmployeeSalaryManagementApp/
 ├── src/
 │   ├── dao/
 │   │   ├── EmployeeDAO.java
-│   │   ├── SalaryDAO.java
-│   │   ├── DepartmentDAO.java
-│   │   ├── PayrollDAO.java
-│   │   └── ReportDAO.java
 │   ├── model/
 │   │   ├── Employee.java
-│   │   ├── Salary.java
-│   │   ├── Department.java
-│   │   ├── Payroll.java
-│   │   └── SalaryComponent.java
 │   ├── servlet/
-│   │   ├── EmployeeServlet.java
-│   │   ├── SalaryServlet.java
-│   │   ├── PayrollServlet.java
-│   │   ├── DepartmentServlet.java
+│   │   ├── AddEmployeeServlet.java
+│   │   ├── DeleteEmployeeServlet.java
+│   │   ├── DisplayEmployeeServlet.java
+│   │   ├── UpdateEmployeeServlet.java
 │   │   ├── ReportServlet.java
-│   │   └── SearchServlet.java
-│   └── util/
-│       ├── SalaryCalculator.java
-│       ├── TaxCalculator.java
-│       └── DatabaseUtil.java
+│   │   └── ReportCriteriaServlet.java
 ├── WebContent/
 │   ├── index.jsp
-│   ├── employee/
-│   │   ├── add_employee.jsp
-│   │   ├── update_employee.jsp
-│   │   ├── view_employees.jsp
-│   │   └── employee_profile.jsp
-│   ├── salary/
-│   │   ├── salary_structure.jsp
-│   │   ├── salary_slip.jsp
-│   ├── payroll/
-│   │   ├── generate_payroll.jsp
-│   │   ├── monthly_payroll.jsp
-│   │   └── payroll_summary.jsp
-│   ├── reports/
-│   │   ├── report_dashboard.jsp
-│   │   ├── salary_reports.jsp
-│   │   ├── tax_reports.jsp
-│   │   └── employee_reports.jsp
-│   └── css/
-│       └── style.css
+│   ├── employeeadd.jsp
+│   ├── employeedelete.jsp
+│   ├── employeeupdate.jsp
+│   ├── employeedisplay.jsp
+│   ├── reports.jsp
+│   ├── report_form.jsp
+│   ├── report_result.jsp
 ├── WEB-INF/
-│   └── web.xml
-└── README.md
+    └── web.xml
 ```
 
 ## 🗄️ Database Setup
