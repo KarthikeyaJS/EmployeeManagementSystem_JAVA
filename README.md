@@ -1,10 +1,5 @@
 # **Employee Salary Management System**
 
-**Subject Name**: Advanced Java  
-**Subject Code**: BCS613D  
-**Name**: Karthikeya J.S.
-**USN**: 4AL22CS072
-**Sem/Section**: VI/B
 
 A comprehensive web application for managing employee salary records, payroll processing, and financial reporting built with JSP, Servlets, and MySQL following MVC architecture principles.
 
@@ -261,20 +256,5 @@ Configure in `SalaryCalculator.java`:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 📞 Contact
-
-**Samay Shetty**  
-- Email: prakhyatshetty710@gmail.com 
-- USN: 4AL22CS142
-
-## 🙏 Acknowledgments
-
-- Thanks to the Advanced Java course instructors
-- Bootstrap for the responsive UI framework
-- MySQL for the robust database system
-- Apache Tomcat for the web server
-- iText library for PDF generation (salary slips)
